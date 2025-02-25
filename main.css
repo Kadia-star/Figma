@@ -171,6 +171,7 @@ h4{
 body{
     overflow-x: hidden;
     background-color: whitesmoke;
+    
 }
 
 .menu{
@@ -178,10 +179,10 @@ body{
     text-align: center;
 }
 .footer1{
-    text-align: center;
     color: white;
     background-color: black;
     padding: 30px;
+    text-align: right;
 }
 
 .footer1 img{
@@ -192,7 +193,25 @@ body{
 .menu2{
     text-align: center;
     background-color: white;
+    margin: 100px;
+    margin-top: 20px;
 
+}
+
+.menu3{
+    text-align: center;
+    background-color: white;
+    margin: 100px;
+    margin-top: 20px;
+    padding: 100px;
+   
+
+}
+
+.menu3 h2{
+    display: inline-flex;
+    margin-top: -50px;
+    left: 20px;
 }
 
 .appBar2{
