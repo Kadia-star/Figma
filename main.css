@@ -171,3 +171,41 @@ h4{
 body{
     overflow-x: hidden;
 }
+
+.menu{
+    justify-content: center;
+    text-align: center;
+}
+.footer1{
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding: 30px;
+}
+
+.footer1 img{
+    width: 20px;
+    padding: 5px;
+}
+
+.menu2{
+    text-align: center;
+
+}
+
+.appBar2{
+    padding: 20px;
+    margin: 10px;
+}
+
+.appBar2 img{
+    width: 60px;
+    justify-content: center;
+    text-align: center;
+}
+
+.adresse2 h2{
+    text-decoration:underline;
+    text-decoration-color: red;
+
+}
