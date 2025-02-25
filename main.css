@@ -1,0 +1,173 @@
+
+.appBar{
+    display: flex;
+    padding: 20px;
+    margin: 10px;
+}
+
+.appBar img{
+    width: 50px;
+}
+nav ul{
+    display: inline-flex;
+    gap: 30px;
+}
+
+a {
+  text-decoration: none; /*ne pas souligne*/
+  font-weight: bolder;
+  color: black;
+  font-size: 20px;
+}
+ul li{
+    list-style: none; /*enleve les pointus*/
+}
+.class1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10%;
+  
+}
+h1{
+    font-weight:900;
+    font-size: 50px;
+    font-family: "Roboto", serif;
+    font-weight: weight;
+    font-style: normal;
+}
+.class1 p{
+    font-size: 20px;
+    font-family: "Roboto", serif;
+    font-weight: weight;
+    font-style: normal;
+    margin-top: -20px;
+}
+ button{
+    color: white;
+    background-color: black;
+    padding: 10px;
+ }
+
+.class1 img{
+    width: 200px;
+    margin-left: 100px;
+}
+span{
+    color: red;
+}
+
+.class2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.class2 img{
+    width: 300px;
+    height: 200px;
+    margin-top: 20px;
+}
+.adresse{
+    justify-content: center;
+    text-align: center;
+    font-family: "Roboto", serif;
+    font-weight: weight;
+    font-style: normal;
+    margin-top: 100px;
+}
+.adresse p{
+    margin-top: -20px;
+}
+.colo{
+    background-color: red;
+    color: white;
+    padding: 30px;
+    justify-content: center;
+    text-align: center;
+    font-family: "Roboto", serif;
+}
+
+.titre{
+    justify-content: center;
+    text-align: center;
+    font-family: "Roboto", serif;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.titre p{
+    display: flex;
+    justify-content: center;
+    text-align: justify;
+    font-family: "Roboto", serif;
+    font-weight: weight;
+    font-style: normal;
+   
+}
+.titre2{
+    justify-content: center;
+    text-align: center;
+    font-family: "Roboto", serif;
+    font-weight: weight;
+    font-style: normal;
+    margin-top: -20px;
+    
+}
+
+.images2{
+    display: flex;
+    justify-content: center;
+    margin-top: -20px;
+    
+    
+}
+.images3{
+    display: flex;
+    justify-content: center;
+    margin-top: -20px;
+}
+.images2 img{
+    margin: 30px;
+    height: 200px;
+}
+.images3 img{
+    margin: 30px;
+    height: 200px;
+}
+
+
+.footer{
+    color: white;
+    background-color: black;
+    padding: 30px;
+  text-align: right;
+   
+}
+
+.footer img{
+    width: 20px;
+    padding: 5px;
+}
+.contact{
+    /*Pour souligne en rouge*/
+    text-decoration:underline;
+    text-decoration-color: red;
+}
+
+.span2{
+    font-weight: bolder;
+    color: black;
+}
+
+.Accueil{
+    text-decoration:underline;
+    text-decoration-color: red;
+}
+
+h4{
+    text-decoration:underline;
+    text-decoration-color: red;
+}
+body{
+    overflow-x: hidden;
+}
