@@ -91,7 +91,7 @@ span{
     justify-content: center;
     text-align: center;
     font-family: "Roboto", serif;
-    font-weight: weight;
+    font-weight: weight; /*En gras*/
     font-style: normal;
 }
 
@@ -99,7 +99,7 @@ span{
     display: flex;
     justify-content: center;
     text-align: justify;
-    font-family: "Roboto", serif;
+    font-family: "Roboto", serif; 
     font-weight: weight;
     font-style: normal;
    
@@ -107,7 +107,7 @@ span{
 .titre2{
     justify-content: center;
     text-align: center;
-    font-family: "Roboto", serif;
+    font-family: "Roboto", serif; /*Police*/
     font-weight: weight;
     font-style: normal;
     margin-top: -20px;
@@ -229,4 +229,12 @@ body{
     text-decoration:underline;
     text-decoration-color: red;
 
+}
+
+.yummy{
+    display: flex;
+   gap: 50px;
+    margin: 20px;
+    justify-content: center;
+    text-align: center;
 }
