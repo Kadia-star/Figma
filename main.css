@@ -170,6 +170,7 @@ h4{
 }
 body{
     overflow-x: hidden;
+    background-color: whitesmoke;
 }
 
 .menu{
@@ -190,6 +191,7 @@ body{
 
 .menu2{
     text-align: center;
+    background-color: white;
 
 }
 
