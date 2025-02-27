@@ -27,6 +27,12 @@ ul li{
     text-align: center;
     margin-top: 10%;
 }
+/* ✅ Responsive Design */
+@media (max-width: 768px) {
+    .class1 {
+        flex-direction: column;
+    }
+}
 h1{
     font-weight:900;
     font-size: 50px;
@@ -60,6 +66,12 @@ span{
     justify-content: center;
     text-align: center;
 }
+/* ✅ Responsive Design */
+@media (max-width: 768px) {
+    .class2 {
+        flex-direction: column;
+    }
+}
 .class2 img{
     width: 300px;
     height: 200px;
@@ -73,6 +85,7 @@ span{
     font-style: normal;
     margin-top: 100px;
 }
+
 .adresse p{
     margin-top: -20px;
 }
@@ -111,18 +124,36 @@ span{
     margin-top: -20px;
     
 }
+/* ✅ Responsive Design */
+@media (max-width: 768px) {
+    .titre2 {
+        flex-direction: column;
+    }
+}
 
 .images2{
     display: flex;
     justify-content: center;
     margin-top: -20px;
-    
-    
+
+}
+/* ✅ Responsive Design */
+@media (max-width: 768px) {
+    .images2 {
+        flex-direction: column;
+    }
 }
 .images3{
     display: flex;
     justify-content: center;
     margin-top: -20px;
+}
+
+/* ✅ Responsive Design */
+@media (max-width: 768px) {
+    .images3{
+        flex-direction: column;
+    }
 }
 .images2 img{
     margin: 30px;
@@ -231,11 +262,12 @@ body{
 
 .yummy{
     display: flex;
-   gap: 50px;
-    margin: 20px;
+    gap: 20px;
     justify-content: center;
     text-align: center;
 }
+
+
 /* ✅ Responsive Design */
 @media (max-width: 768px) {
     .nav-links {
@@ -248,3 +280,4 @@ body{
         text-align: center;
     }
 }
+
